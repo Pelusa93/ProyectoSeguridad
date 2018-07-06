@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/GenCert.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/usuarios.jason</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/CambiarStatusServer.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/Inscripcion.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/SSLSocketsServer.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/Security.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/Usuario.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/LoginServer.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/RunServer.java</file>
+            <file>file:/home/elberg/Escritorio/SSLSocketsServer/src/sslsocketsserver/CertIssuer.java</file>
+        </group>
+    </open-files>
+</project-private>
