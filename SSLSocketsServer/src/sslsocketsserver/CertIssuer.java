@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.security.InvalidKeyException;
 import java.security.KeyStore;
-import java.security.KeyStore.LoadStoreParameter;
+
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
@@ -26,7 +26,12 @@ import java.io.Writer;
 import java.nio.charset.Charset;
 import java.security.cert.Certificate;
 //import java.security.Certificate;
-import java.security.cert.CertificateFactory;
+
+
+/**
+ * Este es el metodo que genera el certificado al usuario
+ * @author elberg
+ */
 
 public class CertIssuer {
    private String certAlias="serverSocketDom";

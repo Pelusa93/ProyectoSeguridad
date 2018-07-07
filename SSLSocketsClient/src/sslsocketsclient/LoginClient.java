@@ -20,6 +20,11 @@ import javax.net.ssl.SSLServerSocketFactory;
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 
+/**
+ * Manda por socket ssl al servidor la informacion recogida para que inicia sesion 
+ * @author elberg
+ */
+
 class LoginClient {
   public LoginClient(String nombre, String pass, String respuesta) {
     

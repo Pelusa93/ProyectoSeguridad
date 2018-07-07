@@ -19,7 +19,7 @@ import static sslsocketsserver.Inscripcion.usuarios;
 import static sslsocketsserver.LoginServer.DireccionArchivoUsuarios;
 
 /**
- *
+ *Clase que modifica el estatus del usuario
  *
  */
 public class CambiarStatusServer {

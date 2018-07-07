@@ -14,7 +14,7 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 
 /**
- *
+ *Metodo que se comunica con el servidor para cambiar el estatus del cliente bloqueado o activo 
  * 
  */
 public class CambiarStatusClient {

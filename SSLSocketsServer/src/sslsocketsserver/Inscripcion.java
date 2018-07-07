@@ -17,7 +17,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 
 /**
- *
+ *Registra el usuario en un .json 
  * 
  */
 public class Inscripcion {

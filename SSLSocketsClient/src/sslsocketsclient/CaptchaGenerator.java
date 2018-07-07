@@ -24,6 +24,10 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
  
+/**
+ * Esta clase genera el captcha
+ * @author elberg
+ */
  
 public class CaptchaGenerator {
  private static JFrame capFrame = new JFrame();
@@ -62,7 +66,10 @@ public class CaptchaGenerator {
  return randomStrValue;
  }
  
- // Method used to render the Image for Captcha
+ /**
+  * Metodo que se usa para renderar el captcha
+  * @param value 
+  */
  public static void renderImage(String value) {
  
  if(value != null && !value.isEmpty()) {

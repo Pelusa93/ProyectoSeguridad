@@ -10,7 +10,7 @@ import java.net.ServerSocket;
 import javax.net.ssl.SSLServerSocketFactory;
 
 /**
- *
+ *Inicia el programa del servidor
  * 
  */
 public class SSLSocketsServer {

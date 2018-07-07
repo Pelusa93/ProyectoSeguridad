@@ -14,7 +14,7 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 
 /**
- *
+ *Hace la conexion con el serrvidor el cual manda informacion para la inscripcion de usuario
  * 
  */
 public class InscripcionClient {

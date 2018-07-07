@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 public class SSLSocketsClient {
     public String status_actulizado ;
-    public static String IP ="localhost";
+    public static String IP ="192.168.250.5";
     public static int contador_estatus;
     private static String nombre;
     private static String pass;

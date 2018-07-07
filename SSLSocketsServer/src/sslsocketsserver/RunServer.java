@@ -21,7 +21,8 @@ import javax.net.ssl.SSLServerSocketFactory;
 import javax.net.ssl.SSLSocket;
 
 /**
- *
+ * Esta clase se queda en modo escucha el cual espera la opcion que escoge el usuario 
+ * para saber hacia donde dirigir las opciones 
  * 
  */
   
