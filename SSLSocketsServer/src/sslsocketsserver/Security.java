@@ -12,7 +12,7 @@ import sun.misc.BASE64Encoder;
 
 /**
  *
- * @author karol
+ * 
  */
 public final class Security {
 

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  *
- * @author karol
+ * 
  */
 public class SSLSocketsClient {
     public String status_actulizado ;

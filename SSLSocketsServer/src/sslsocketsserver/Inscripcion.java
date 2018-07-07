@@ -18,7 +18,7 @@ import org.json.simple.JSONValue;
 
 /**
  *
- * @author karol
+ * 
  */
 public class Inscripcion {
  

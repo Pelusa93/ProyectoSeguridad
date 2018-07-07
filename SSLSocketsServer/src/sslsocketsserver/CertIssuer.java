@@ -2,7 +2,7 @@ package sslsocketsserver;
 
 /**
  *
- * @author karol
+ * 
  */
 import java.io.File;
 import java.io.FileInputStream;

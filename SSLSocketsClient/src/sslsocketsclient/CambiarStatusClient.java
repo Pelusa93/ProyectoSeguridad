@@ -15,7 +15,7 @@ import javax.net.ssl.SSLSocketFactory;
 
 /**
  *
- * @author karol
+ * 
  */
 public class CambiarStatusClient {
         public CambiarStatusClient(Usuario u,String status) {

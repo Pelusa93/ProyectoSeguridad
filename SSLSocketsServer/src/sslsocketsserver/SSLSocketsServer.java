@@ -11,7 +11,7 @@ import javax.net.ssl.SSLServerSocketFactory;
 
 /**
  *
- * @author karol
+ * 
  */
 public class SSLSocketsServer {
 

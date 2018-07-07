@@ -22,7 +22,7 @@ import javax.net.ssl.SSLSocket;
 
 /**
  *
- * @author karol
+ * 
  */
   
 public class RunServer {

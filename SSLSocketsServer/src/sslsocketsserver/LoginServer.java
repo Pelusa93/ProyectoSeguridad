@@ -16,7 +16,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 /**
  *
- * @author karol
+ * 
  */
 class LoginServer {
     static String DireccionArchivoUsuarios = "src//sslsocketsserver//usuarios.jason";

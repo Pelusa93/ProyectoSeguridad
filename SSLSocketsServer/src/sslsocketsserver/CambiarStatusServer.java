@@ -20,7 +20,7 @@ import static sslsocketsserver.LoginServer.DireccionArchivoUsuarios;
 
 /**
  *
- * @author karol
+ *
  */
 public class CambiarStatusServer {
     static String DireccionArchivoUsuarios = "src//sslsocketsserver//usuarios.jason";

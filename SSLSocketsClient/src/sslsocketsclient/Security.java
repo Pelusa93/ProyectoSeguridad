@@ -8,7 +8,7 @@ package sslsocketsclient;
 
 /**
  *
- * @author karol
+ * 
  */
 public final class Security {
     private static Security security;

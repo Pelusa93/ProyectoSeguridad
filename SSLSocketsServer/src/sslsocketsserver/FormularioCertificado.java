@@ -14,7 +14,7 @@ import javax.swing.JApplet;
 
 /**
  *
- * @author karol
+ * 
  */
 public class FormularioCertificado extends JApplet {
 

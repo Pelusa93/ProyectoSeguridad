@@ -15,7 +15,7 @@ import javax.net.ssl.SSLSocketFactory;
 
 /**
  *
- * @author karol
+ * 
  */
 class CrearCert {
 

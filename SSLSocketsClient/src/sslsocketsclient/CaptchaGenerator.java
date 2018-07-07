@@ -7,7 +7,7 @@ package sslsocketsclient;
 
 /**
  *
- * @author karol y Parte Extraída de internet.
+ *  
  */
 
 import java.awt.Color;
