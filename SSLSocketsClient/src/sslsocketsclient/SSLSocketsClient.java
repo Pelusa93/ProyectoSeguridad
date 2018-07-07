@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 public class SSLSocketsClient {
     public String status_actulizado ;
+    public static String IP ="localhost";
     public static int contador_estatus;
     private static String nombre;
     private static String pass;
@@ -42,14 +43,14 @@ public class SSLSocketsClient {
         //Indico donde se encuntran los certificados antes de iniciar el socket
         contador_estatus =0;
         System.setProperty("javax.net.ssl.keyStoreType", "JKS");
-        System.setProperty("javax.net.ssl.keyStore", "src//sslsocketsclient//certs//client//new//clientkey.jks");
+        System.setProperty("javax.net.ssl.keyStore", "src//sslsocketsclient//certs//client//certjess//clientkey.jks");
         System.setProperty("javax.net.ssl.keyStorePassword","PreguntA1234");
-        System.setProperty("javax.net.ssl.trustStore", "src//sslsocketsclient//certs//client//new//clientTrustedCerts.jks");
+        System.setProperty("javax.net.ssl.trustStore", "src//sslsocketsclient//certs//client//certjess//clientTrustedCerts.jks");
         System.setProperty("javax.net.ssl.trustStorePassword", "PreguntA1234");
         
         
         /*SSLSocketFactory clientFactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
-        Socket client = clientFactory.createSocket("localhost", 7070);
+        Socket client = clientFactory.createSocket("192.168.4.42", 7070);
         */String opc="0";        
         
         while (opc.compareTo("5")!=0){

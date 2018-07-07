@@ -22,7 +22,7 @@ class CrearCert {
     public CrearCert(String nombre, String pass) {
         try {
       SSLSocketFactory socketFactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
-      SSLSocket socket = (SSLSocket) socketFactory.createSocket("localhost", 7070);
+      SSLSocket socket = (SSLSocket) socketFactory.createSocket(SSLSocketsClient.IP, 7070);
       PrintWriter output = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
       
       output.println(nombre);      

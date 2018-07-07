@@ -23,9 +23,9 @@ public class SSLSocketsServer {
         
         //Indico donde se encuntran los certificados antes de iniciar el socket
         System.setProperty("javax.net.ssl.keyStoreType", "JKS");
-        System.setProperty("javax.net.ssl.keyStore", "src//sslsocketsserver//certs//server//new//serverkey.jks");
+        System.setProperty("javax.net.ssl.keyStore", "src//sslsocketsserver//certs//server//certjess//serverkey.jks");
         System.setProperty("javax.net.ssl.keyStorePassword","PreguntA1234");
-        System.setProperty("javax.net.ssl.trustStore", "src//sslsocketsserver//certs//server//new//serverTrustedCerts.jks");
+        System.setProperty("javax.net.ssl.trustStore", "src//sslsocketsserver//certs//server//certjess//serverTrustedCerts.jks");
         System.setProperty("javax.net.ssl.trustStorePassword", "PreguntA1234");
         
         

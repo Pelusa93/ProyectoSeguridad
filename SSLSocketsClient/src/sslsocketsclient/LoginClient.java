@@ -28,7 +28,7 @@ class LoginClient {
           Usuario u = new Usuario(nombre);
           if (ssc.contador_estatus < 2 ){
             SSLSocketFactory socketFactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
-            SSLSocket socket = (SSLSocket) socketFactory.createSocket("127.0.0.1", 7070);
+            SSLSocket socket = (SSLSocket) socketFactory.createSocket(SSLSocketsClient.IP, 7070);
             PrintWriter output = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
 
             output.println(nombre);      

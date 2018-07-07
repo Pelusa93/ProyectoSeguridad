@@ -62,7 +62,7 @@ keyStore.setKeyEntry(certAlias, certGen.getPrivateKey(), "fresa*1984".toCharArra
     String alias = certAlias;
     Certificate cert1 = keyStore.getCertificate(alias);
 
-    File file = new File("src//sslsocketsserver//certs//server//new//cert1.crt");
+    File file = new File("src//sslsocketsserver//certs//nuevos_cert//cert1.crt");
     byte[] buf = cert1.getEncoded();
 
     FileOutputStream os = new FileOutputStream(file);
